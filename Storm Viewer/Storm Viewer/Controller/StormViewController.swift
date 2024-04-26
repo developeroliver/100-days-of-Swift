@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  StormViewController.swift
 //  Storm Viewer
 //
 //  Created by olivier geiger on 26/04/2024.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UITableViewController {
+class StormViewController: UITableViewController {
     
     // MARK: - Properties
     var pictures = [String]()
@@ -24,7 +24,7 @@ class ViewController: UITableViewController {
 }
 
 // MARK: - Helpers
-extension ViewController {
+extension StormViewController {
     
     private func setupFileManager() {
         let fm = FileManager.default
@@ -41,6 +41,8 @@ extension ViewController {
     
     private func layout() {
         view.backgroundColor = .systemBackground
+        title = "Storm Viewer"
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
     
     private func setupTableView() {
@@ -54,7 +56,7 @@ extension ViewController {
 }
 
 // MARK: - DataSource and Delegate
-extension ViewController {
+extension StormViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return pictures.count
@@ -70,5 +72,13 @@ extension ViewController {
         cell.selectedBackgroundView = selectedView
         
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let navigation = DetailViewController()
+        navigation.selectedImageName = pictures[indexPath.row]
+        
+        navigationController?.pushViewController(navigation, animated: true)
     }
 }

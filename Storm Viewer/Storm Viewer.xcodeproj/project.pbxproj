@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		37558ECB2BDBE116005917C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37558ECA2BDBE116005917C9 /* AppDelegate.swift */; };
 		37558ECD2BDBE116005917C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37558ECC2BDBE116005917C9 /* SceneDelegate.swift */; };
-		37558ECF2BDBE116005917C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37558ECE2BDBE116005917C9 /* ViewController.swift */; };
+		37558ECF2BDBE116005917C9 /* StormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37558ECE2BDBE116005917C9 /* StormViewController.swift */; };
 		37558ED42BDBE117005917C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37558ED32BDBE117005917C9 /* Assets.xcassets */; };
 		37558EEC2BDBE277005917C9 /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37558EE22BDBE276005917C9 /* nssl0051.jpg */; };
 		37558EED2BDBE277005917C9 /* nssl0046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37558EE32BDBE276005917C9 /* nssl0046.jpg */; };
@@ -21,13 +21,15 @@
 		37558EF32BDBE277005917C9 /* nssl0045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37558EE92BDBE277005917C9 /* nssl0045.jpg */; };
 		37558EF42BDBE277005917C9 /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37558EEA2BDBE277005917C9 /* nssl0033.jpg */; };
 		37558EF52BDBE277005917C9 /* nssl0042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37558EEB2BDBE277005917C9 /* nssl0042.jpg */; };
+		37558EF72BDBEB86005917C9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37558EF62BDBEB86005917C9 /* DetailViewController.swift */; };
+		37558EFA2BDBEBB0005917C9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 37558EF92BDBEBB0005917C9 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		37558EC72BDBE116005917C9 /* Storm Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storm Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37558ECA2BDBE116005917C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37558ECC2BDBE116005917C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		37558ECE2BDBE116005917C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37558ECE2BDBE116005917C9 /* StormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewController.swift; sourceTree = "<group>"; };
 		37558ED32BDBE117005917C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37558ED82BDBE117005917C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37558EE22BDBE276005917C9 /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		37558EE92BDBE277005917C9 /* nssl0045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0045.jpg; sourceTree = "<group>"; };
 		37558EEA2BDBE277005917C9 /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
 		37558EEB2BDBE277005917C9 /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpg; sourceTree = "<group>"; };
+		37558EF62BDBEB86005917C9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37558EFA2BDBEBB0005917C9 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +81,16 @@
 				37558EE12BDBE188005917C9 /* Controller */,
 				37558EDF2BDBE17D005917C9 /* Model */,
 				37558EE02BDBE183005917C9 /* View */,
+				37558EEA2BDBE277005917C9 /* nssl0033.jpg */,
+				37558EE52BDBE276005917C9 /* nssl0034.jpg */,
+				37558EE42BDBE276005917C9 /* nssl0041.jpg */,
+				37558EEB2BDBE277005917C9 /* nssl0042.jpg */,
+				37558EE62BDBE276005917C9 /* nssl0043.jpg */,
+				37558EE92BDBE277005917C9 /* nssl0045.jpg */,
+				37558EE32BDBE276005917C9 /* nssl0046.jpg */,
+				37558EE82BDBE277005917C9 /* nssl0049.jpg */,
+				37558EE22BDBE276005917C9 /* nssl0051.jpg */,
+				37558EE72BDBE276005917C9 /* nssl0091.jpg */,
 			);
 			path = "Storm Viewer";
 			sourceTree = "<group>";
@@ -101,16 +115,6 @@
 		37558EE02BDBE183005917C9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				37558EEA2BDBE277005917C9 /* nssl0033.jpg */,
-				37558EE52BDBE276005917C9 /* nssl0034.jpg */,
-				37558EE42BDBE276005917C9 /* nssl0041.jpg */,
-				37558EEB2BDBE277005917C9 /* nssl0042.jpg */,
-				37558EE62BDBE276005917C9 /* nssl0043.jpg */,
-				37558EE92BDBE277005917C9 /* nssl0045.jpg */,
-				37558EE32BDBE276005917C9 /* nssl0046.jpg */,
-				37558EE82BDBE277005917C9 /* nssl0049.jpg */,
-				37558EE22BDBE276005917C9 /* nssl0051.jpg */,
-				37558EE72BDBE276005917C9 /* nssl0091.jpg */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -118,7 +122,8 @@
 		37558EE12BDBE188005917C9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				37558ECE2BDBE116005917C9 /* ViewController.swift */,
+				37558ECE2BDBE116005917C9 /* StormViewController.swift */,
+				37558EF62BDBEB86005917C9 /* DetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -139,6 +144,9 @@
 			dependencies = (
 			);
 			name = "Storm Viewer";
+			packageProductDependencies = (
+				37558EF92BDBEBB0005917C9 /* SnapKit */,
+			);
 			productName = "Storm Viewer";
 			productReference = 37558EC72BDBE116005917C9 /* Storm Viewer.app */;
 			productType = "com.apple.product-type.application";
@@ -167,6 +175,9 @@
 				Base,
 			);
 			mainGroup = 37558EBE2BDBE116005917C9;
+			packageReferences = (
+				37558EF82BDBEBB0005917C9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 37558EC82BDBE116005917C9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -202,9 +213,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37558ECF2BDBE116005917C9 /* ViewController.swift in Sources */,
+				37558ECF2BDBE116005917C9 /* StormViewController.swift in Sources */,
 				37558ECB2BDBE116005917C9 /* AppDelegate.swift in Sources */,
 				37558ECD2BDBE116005917C9 /* SceneDelegate.swift in Sources */,
+				37558EF72BDBEB86005917C9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +418,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		37558EF82BDBEBB0005917C9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		37558EF92BDBEBB0005917C9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37558EF82BDBEBB0005917C9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 37558EBF2BDBE116005917C9 /* Project object */;
 }
