@@ -1,2 +1,3 @@
 # 100-days-of-Swift
- 100 days of Swift course projects in programmatic UIKit
+ Tutoriel sur UIKit de Paul Hudson.
+ 100 days of Swift course projects in programmatic UIKit.
